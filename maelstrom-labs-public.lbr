@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+  <eagle version="9.1.1">
+      <drawing>
+          <settings>
+              <setting alwaysvectorfont="no"/>
+              <setting verticaltext="up"/>
+          </settings>
+          <grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.25" altunitdist="mm" altunit="mm"/>
+          <layers>
+              <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"></layer>
+              <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"></layer>
+              <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"></layer>
+              <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"></layer>
+              <layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"></layer>
+              <layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"></layer>
+              <layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"></layer>
+              <layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"></layer>
+              <layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"></layer>
+              <layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"></layer>
+              <layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"></layer>
+              <layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"></layer>
+              <layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"></layer>
+              <layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"></layer>
+              <layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"></layer>
+              <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"></layer>
+              <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"></layer>
+              <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"></layer>
+              <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"></layer>
+              <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"></layer>
+              <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"></layer>
+              <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"></layer>
+              <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"></layer>
+              <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"></layer>
+              <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"></layer>
+              <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"></layer>
+              <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"></layer>
+              <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"></layer>
+              <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"></layer>
+              <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"></layer>
+              <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"></layer>
+              <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"></layer>
+              <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"></layer>
+              <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"></layer>
+              <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"></layer>
+              <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"></layer>
+              <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"></layer>
+              <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"></layer>
+              <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"></layer>
+              <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"></layer>
+              <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"></layer>
+              <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"></layer>
+              <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"></layer>
+              <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"></layer>
+              <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"></layer>
+              <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"></layer>
+              <layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"></layer>
+              <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"></layer>
+              <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"></layer>
+              <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"></layer>
+              <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"></layer>
+          </layers>
+          <library>
+              <packages>
+                  <package name="TERMINAL-BLOCK-2.54MM-02POLES">
+                      <description>2.54mm Terminal block with 2 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="5.48" y1="0" x2="5.48" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="5.48" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="5.48" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="5.48" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="5.48" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="6.68" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-03POLES">
+                      <description>2.54mm Terminal block with 3 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="8.02" y1="0" x2="8.02" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="8.02" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="8.02" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="8.02" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="8.02" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="9.22" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-04POLES">
+                      <description>2.54mm Terminal block with 4 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN04" x="9.09" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="10.56" y1="0" x2="10.56" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="10.56" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="10.56" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="10.56" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="10.56" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="11.76" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-05POLES">
+                      <description>2.54mm Terminal block with 5 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN04" x="9.09" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN05" x="11.63" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="13.1" y1="0" x2="13.1" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="13.1" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="13.1" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="13.1" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="13.1" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="14.3" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-06POLES">
+                      <description>2.54mm Terminal block with 6 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN04" x="9.09" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN05" x="11.63" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN06" x="14.17" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="15.64" y1="0" x2="15.64" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="15.64" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="15.64" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="15.64" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="15.64" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="16.84" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-07POLES">
+                      <description>2.54mm Terminal block with 7 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN04" x="9.09" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN05" x="11.63" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN06" x="14.17" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN07" x="16.71" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="18.18" y1="0" x2="18.18" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="18.18" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="18.18" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="18.18" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="18.18" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="19.38" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-08POLES">
+                      <description>2.54mm Terminal block with 8 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN04" x="9.09" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN05" x="11.63" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN06" x="14.17" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN07" x="16.71" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN08" x="19.25" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="20.72" y1="0" x2="20.72" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="20.72" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="20.72" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="20.72" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="20.72" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="21.92" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-09POLES">
+                      <description>2.54mm Terminal block with 9 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN04" x="9.09" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN05" x="11.63" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN06" x="14.17" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN07" x="16.71" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN08" x="19.25" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN09" x="21.79" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="23.26" y1="0" x2="23.26" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="23.26" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="23.26" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="23.26" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="23.26" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="24.46" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-10POLES">
+                      <description>2.54mm Terminal block with 10 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN04" x="9.09" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN05" x="11.63" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN06" x="14.17" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN07" x="16.71" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN08" x="19.25" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN09" x="21.79" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN10" x="24.33" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="25.8" y1="0" x2="25.8" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="25.8" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="25.8" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="25.8" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="25.8" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="27" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-11POLES">
+                      <description>2.54mm Terminal block with 11 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN04" x="9.09" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN05" x="11.63" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN06" x="14.17" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN07" x="16.71" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN08" x="19.25" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN09" x="21.79" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN10" x="24.33" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN11" x="26.87" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="28.34" y1="0" x2="28.34" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="28.34" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="28.34" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="28.34" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="28.34" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="29.54" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-2.54MM-12POLES">
+                      <description>2.54mm Terminal block with 12 poles.</description>
+                      <pad name="PIN01" x="1.47" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN02" x="4.01" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN03" x="6.55" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN04" x="9.09" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN05" x="11.63" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN06" x="14.17" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN07" x="16.71" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN08" x="19.25" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN09" x="21.79" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN10" x="24.33" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN11" x="26.87" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <pad name="PIN12" x="29.41" y="-3.25" drill="1.1" diameter="1.8"/>
+                      <wire x1="0" y1="0" x2="0" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="30.88" y1="0" x2="30.88" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="30.88" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-6.5" x2="30.88" y2="-6.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.625" x2="30.88" y2="-1.625" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-4.875" x2="30.88" y2="-4.875" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="32.08" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+              </packages>
+              <packages>
+                  <package name="TERMINAL-BLOCK-3.5MM-02POLES">
+                      <description>3.5mm Terminal block with 2 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="8.1" y1="0" x2="8.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="8.1" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="8.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="8.1" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="8.1" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="9.3" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-03POLES">
+                      <description>3.5mm Terminal block with 3 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="11.6" y1="0" x2="11.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="11.6" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="11.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="11.6" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="11.6" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="12.8" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-04POLES">
+                      <description>3.5mm Terminal block with 4 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN04" x="12.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="15.1" y1="0" x2="15.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="15.1" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="15.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="15.1" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="15.1" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="16.3" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-05POLES">
+                      <description>3.5mm Terminal block with 5 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN04" x="12.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN05" x="16.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="18.6" y1="0" x2="18.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="18.6" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="18.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="18.6" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="18.6" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="19.8" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-06POLES">
+                      <description>3.5mm Terminal block with 6 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN04" x="12.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN05" x="16.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN06" x="19.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="22.1" y1="0" x2="22.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="22.1" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="22.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="22.1" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="22.1" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="23.3" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-07POLES">
+                      <description>3.5mm Terminal block with 7 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN04" x="12.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN05" x="16.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN06" x="19.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN07" x="23.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="25.6" y1="0" x2="25.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="25.6" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="25.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="25.6" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="25.6" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="26.8" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-08POLES">
+                      <description>3.5mm Terminal block with 8 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN04" x="12.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN05" x="16.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN06" x="19.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN07" x="23.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN08" x="26.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="29.1" y1="0" x2="29.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="29.1" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="29.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="29.1" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="29.1" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="30.3" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-09POLES">
+                      <description>3.5mm Terminal block with 9 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN04" x="12.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN05" x="16.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN06" x="19.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN07" x="23.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN08" x="26.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN09" x="30.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="32.6" y1="0" x2="32.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="32.6" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="32.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="32.6" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="32.6" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="33.8" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-10POLES">
+                      <description>3.5mm Terminal block with 10 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN04" x="12.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN05" x="16.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN06" x="19.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN07" x="23.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN08" x="26.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN09" x="30.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN10" x="33.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="36.1" y1="0" x2="36.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="36.1" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="36.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="36.1" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="36.1" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="37.3" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-11POLES">
+                      <description>3.5mm Terminal block with 11 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN04" x="12.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN05" x="16.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN06" x="19.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN07" x="23.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN08" x="26.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN09" x="30.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN10" x="33.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN11" x="37.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="39.6" y1="0" x2="39.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="39.6" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="39.6" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="39.6" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="39.6" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="40.8" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-3.5MM-12POLES">
+                      <description>3.5mm Terminal block with 12 poles.</description>
+                      <pad name="PIN01" x="2.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN02" x="5.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN03" x="9.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN04" x="12.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN05" x="16.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN06" x="19.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN07" x="23.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN08" x="26.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN09" x="30.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN10" x="33.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN11" x="37.3" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <pad name="PIN12" x="40.8" y="-3.4" drill="1.1" diameter="2.2"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="43.1" y1="0" x2="43.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="43.1" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7" x2="43.1" y2="-7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-1.7" x2="43.1" y2="-1.7" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.2" x2="43.1" y2="-5.2" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="44.3" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+              </packages>
+              <packages>
+                  <package name="TERMINAL-BLOCK-5MM-02POLES">
+                      <description>5mm Terminal block with 2 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="11.2" y1="0" x2="11.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="11.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="11.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="11.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="11.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="12.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-03POLES">
+                      <description>5mm Terminal block with 3 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="16.2" y1="0" x2="16.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="16.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="16.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="16.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="16.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="17.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-04POLES">
+                      <description>5mm Terminal block with 4 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN04" x="18.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="21.2" y1="0" x2="21.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="21.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="21.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="21.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="21.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="22.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-05POLES">
+                      <description>5mm Terminal block with 5 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN04" x="18.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN05" x="23.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="26.2" y1="0" x2="26.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="26.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="26.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="26.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="26.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="27.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-06POLES">
+                      <description>5mm Terminal block with 6 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN04" x="18.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN05" x="23.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN06" x="28.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="31.2" y1="0" x2="31.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="31.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="31.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="31.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="31.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="32.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-07POLES">
+                      <description>5mm Terminal block with 7 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN04" x="18.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN05" x="23.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN06" x="28.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN07" x="33.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="36.2" y1="0" x2="36.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="36.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="36.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="36.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="36.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="37.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-08POLES">
+                      <description>5mm Terminal block with 8 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN04" x="18.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN05" x="23.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN06" x="28.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN07" x="33.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN08" x="38.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="41.2" y1="0" x2="41.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="41.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="41.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="41.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="41.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="42.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-09POLES">
+                      <description>5mm Terminal block with 9 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN04" x="18.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN05" x="23.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN06" x="28.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN07" x="33.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN08" x="38.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN09" x="43.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="46.2" y1="0" x2="46.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="46.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="46.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="46.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="46.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="47.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-10POLES">
+                      <description>5mm Terminal block with 10 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN04" x="18.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN05" x="23.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN06" x="28.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN07" x="33.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN08" x="38.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN09" x="43.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN10" x="48.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="51.2" y1="0" x2="51.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="51.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="51.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="51.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="51.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="52.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-11POLES">
+                      <description>5mm Terminal block with 11 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN04" x="18.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN05" x="23.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN06" x="28.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN07" x="33.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN08" x="38.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN09" x="43.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN10" x="48.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN11" x="53.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="56.2" y1="0" x2="56.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="56.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="56.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="56.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="56.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="57.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+                  <package name="TERMINAL-BLOCK-5MM-12POLES">
+                      <description>5mm Terminal block with 12 poles.</description>
+                      <pad name="PIN01" x="3.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN02" x="8.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN03" x="13.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN04" x="18.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN05" x="23.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN06" x="28.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN07" x="33.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN08" x="38.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN09" x="43.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN10" x="48.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN11" x="53.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <pad name="PIN12" x="58.1" y="-4.2" drill="1.2" diameter="2.3"/>
+                      <wire x1="0" y1="0" x2="0" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="61.2" y1="0" x2="61.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="0" x2="61.2" y2="0" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-7.5" x2="61.2" y2="-7.5" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-2.1" x2="61.2" y2="-2.1" width="0.127" layer="21"/>
+                      <wire x1="0" y1="-5.85" x2="61.2" y2="-5.85" width="0.127" layer="21"/>
+                      <text x="-1.2" y="0" size="1.4224" layer="25" font="vector" rot="R90" align="center-right">&gt;NAME</text>
+                      <text x="62.4" y="0" size="1.4224" layer="27" font="vector" rot="R90" align="center-right">&gt;VALUE</text>
+                  </package>
+              </packages>
+              <symbols>
+                  <symbol name="TERMINAL-BLOCK-02POLES">
+                      <description>Terminal block with 02 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="10" y1="0" x2="10" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="10" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="10" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="10.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-03POLES">
+                      <description>Terminal block with 03 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="15" y1="0" x2="15" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="15" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="15" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="15.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-04POLES">
+                      <description>Terminal block with 04 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="20" y1="0" x2="20" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="20" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="20" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN04" x="17.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="20.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-05POLES">
+                      <description>Terminal block with 05 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="25" y1="0" x2="25" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="25" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="25" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN04" x="17.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN05" x="22.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="25.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-06POLES">
+                      <description>Terminal block with 06 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="30" y1="0" x2="30" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="30" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="30" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN04" x="17.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN05" x="22.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN06" x="27.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="30.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-07POLES">
+                      <description>Terminal block with 07 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="35" y1="0" x2="35" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="35" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="35" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN04" x="17.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN05" x="22.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN06" x="27.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN07" x="32.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="35.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-08POLES">
+                      <description>Terminal block with 08 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="40" y1="0" x2="40" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="40" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="40" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN04" x="17.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN05" x="22.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN06" x="27.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN07" x="32.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN08" x="37.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="40.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-09POLES">
+                      <description>Terminal block with 09 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="45" y1="0" x2="45" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="45" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="45" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN04" x="17.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN05" x="22.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN06" x="27.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN07" x="32.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN08" x="37.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN09" x="42.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="45.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-10POLES">
+                      <description>Terminal block with 10 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="50" y1="0" x2="50" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="50" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="50" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN04" x="17.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN05" x="22.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN06" x="27.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN07" x="32.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN08" x="37.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN09" x="42.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN10" x="47.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="50.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-11POLES">
+                      <description>Terminal block with 11 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="55" y1="0" x2="55" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="55" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="55" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN04" x="17.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN05" x="22.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN06" x="27.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN07" x="32.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN08" x="37.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN09" x="42.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN10" x="47.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN11" x="52.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="55.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+                  <symbol name="TERMINAL-BLOCK-12POLES">
+                      <description>Terminal block with 12 poles.</description>
+                      <wire x1="0" y1="0" x2="0" y2="10" width="0.127" layer="94"/>
+                      <wire x1="60" y1="0" x2="60" y2="10" width="0.127" layer="94"/>
+                      <wire x1="0" y1="0" x2="60" y2="0" width="0.127" layer="94"/>
+                      <wire x1="0" y1="10" x2="60" y2="10" width="0.127" layer="94"/>
+                      <pin name="PIN01" x="2.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN02" x="7.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN03" x="12.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN04" x="17.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN05" x="22.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN06" x="27.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN07" x="32.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN08" x="37.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN09" x="42.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN10" x="47.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN11" x="52.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <pin name="PIN12" x="57.5" y="12.46" visible="pin" length="short" swaplevel="1" rot="R270"/>
+                      <text x="-0.5" y="0" size="1.9304" layer="94" rot="R90" align="bottom-left">&gt;NAME</text>
+                      <text x="60.5" y="0" size="1.9304" layer="94" rot="R90" align="top-left">&gt;VALUE</text>
+                  </symbol>
+              </symbols>
+              <devicesets>
+                  <deviceset name="TERMINAL-BLOCK-02POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 02 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-02POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-02POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-02POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-02POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-03POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 03 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-03POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-03POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-03POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-03POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-04POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 04 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-04POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-04POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-04POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-04POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-05POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 05 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-05POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-05POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-05POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-05POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-06POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 06 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-06POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-06POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-06POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-06POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-07POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 07 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-07POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-07POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-07POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-07POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-08POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 08 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-08POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-08POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-08POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-08POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-09POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 09 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-09POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-09POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-09POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-09POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-10POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 10 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-10POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-10POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                                  <connect gate="G$1" pin="PIN10" pad="PIN10"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-10POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                                  <connect gate="G$1" pin="PIN10" pad="PIN10"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-10POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                                  <connect gate="G$1" pin="PIN10" pad="PIN10"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-11POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 11 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-11POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-11POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                                  <connect gate="G$1" pin="PIN10" pad="PIN10"/>
+                                  <connect gate="G$1" pin="PIN11" pad="PIN11"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-11POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                                  <connect gate="G$1" pin="PIN10" pad="PIN10"/>
+                                  <connect gate="G$1" pin="PIN11" pad="PIN11"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-11POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                                  <connect gate="G$1" pin="PIN10" pad="PIN10"/>
+                                  <connect gate="G$1" pin="PIN11" pad="PIN11"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+                  <deviceset name="TERMINAL-BLOCK-12POLES" prefix="J" uservalue="yes">
+                      <description>Terminal block with 12 poles.</description>
+                      <gates>
+                          <gate name="G$1" symbol="TERMINAL-BLOCK-12POLES" x="0" y="0"/>
+                      </gates>
+                      <devices>
+                          <device name="2.54MM" package="TERMINAL-BLOCK-2.54MM-12POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                                  <connect gate="G$1" pin="PIN10" pad="PIN10"/>
+                                  <connect gate="G$1" pin="PIN11" pad="PIN11"/>
+                                  <connect gate="G$1" pin="PIN12" pad="PIN12"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="3.5MM" package="TERMINAL-BLOCK-3.5MM-12POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                                  <connect gate="G$1" pin="PIN10" pad="PIN10"/>
+                                  <connect gate="G$1" pin="PIN11" pad="PIN11"/>
+                                  <connect gate="G$1" pin="PIN12" pad="PIN12"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                          <device name="5MM" package="TERMINAL-BLOCK-5MM-12POLES">
+                              <connects>
+                                  <connect gate="G$1" pin="PIN01" pad="PIN01"/>
+                                  <connect gate="G$1" pin="PIN02" pad="PIN02"/>
+                                  <connect gate="G$1" pin="PIN03" pad="PIN03"/>
+                                  <connect gate="G$1" pin="PIN04" pad="PIN04"/>
+                                  <connect gate="G$1" pin="PIN05" pad="PIN05"/>
+                                  <connect gate="G$1" pin="PIN06" pad="PIN06"/>
+                                  <connect gate="G$1" pin="PIN07" pad="PIN07"/>
+                                  <connect gate="G$1" pin="PIN08" pad="PIN08"/>
+                                  <connect gate="G$1" pin="PIN09" pad="PIN09"/>
+                                  <connect gate="G$1" pin="PIN10" pad="PIN10"/>
+                                  <connect gate="G$1" pin="PIN11" pad="PIN11"/>
+                                  <connect gate="G$1" pin="PIN12" pad="PIN12"/>
+                              </connects>
+                              <technologies>
+                                  <technology name=""/>
+                              </technologies>
+                          </device>
+                      </devices>
+                  </deviceset>
+              </devicesets>
+          </library>
+      </drawing>
+  </eagle>
